@@ -25,6 +25,7 @@ const Button = ({
     <button
       type={type || "button"}
       disabled={submitting || false}
+      onClick={handleClick}
       className={`flexCenter gap-3 px-4 py-3 ${
         textColor ? textColor : "text-white"
       } ${
